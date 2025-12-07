@@ -10,7 +10,7 @@ Once deployed, we will query the agent using a natural language prompt. The agen
 This demo illustrates how Kagenti manages the lifecycle of all required components: agents, tools, protocols, and runtime infrastructure.
 
 Here's a breakdown of the sections:
-
+- In [**Set Up**](#set-up), you'll run a script to rebuild and roll out the UI image 
 - In [**Import New Agent**](#import-new-agent), you'll build and deploy the [`image_service`](https://github.com/SiennaChien/agent-examples-fork/tree/image_agent/a2a/image_service) agent.
 - In [**Import New Tool**](#import-new-tool), you'll build and deploy the [`image_tool`](https://github.com/SiennaChien/agent-examples-fork/tree/image_tool/mcp/image_tool) tool.
 - In [**Validate the Deployment**](#validate-the-deployment), you'll verify that all components are running and operational.
@@ -22,6 +22,11 @@ Here's a breakdown of the sections:
 You should also open the Agent Platform Demo Dashboard as instructed in the [Connect to the Kagenti UI](./demos.md#connect-to-the-kagenti-ui) section.
 
 ---
+## Set Up
+To properly set up the UI: 
+1. Change directory to the `kagenti/ui` folder
+1. Run `./scripts/ui-dev-build.sh` to rebuild and roll out the UI image
+
 
 ## Import New Agent
 
